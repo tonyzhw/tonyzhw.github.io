@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tonyzhw.github.io</id>
     <title>tonyzhwsblog</title>
-    <updated>2021-02-25T10:36:30.745Z</updated>
+    <updated>2021-02-25T10:38:14.823Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tonyzhw.github.io"/>
     <link rel="self" href="https://tonyzhw.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://tonyzhw.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, tonyzhwsblog</rights>
     <entry>
-        <title type="html"><![CDATA[我的世界国服起床战争教学（1）]]></title>
+        <title type="html"><![CDATA[我的世界国服起床战争教学-1]]></title>
         <id>https://tonyzhw.github.io/LAXjy7Ray/</id>
         <link href="https://tonyzhw.github.io/LAXjy7Ray/">
         </link>

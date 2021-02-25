@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tonyzhw.github.io</id>
     <title>tonyzhwsblog</title>
-    <updated>2021-02-25T05:34:58.156Z</updated>
+    <updated>2021-02-25T05:37:40.015Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tonyzhw.github.io"/>
     <link rel="self" href="https://tonyzhw.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2021, tonyzhwsblog</rights>
     <entry>
         <title type="html"><![CDATA[如何用python做一个简单的网站]]></title>
-        <id>https://tonyzhw.github.io/post/ru-he-yong-python-zuo-yi-ge-jian-dan-de-wang-zhan/</id>
-        <link href="https://tonyzhw.github.io/post/ru-he-yong-python-zuo-yi-ge-jian-dan-de-wang-zhan/">
+        <id>https://tonyzhw.github.io/ru-he-yong-python-zuo-yi-ge-jian-dan-de-wang-zhan/</id>
+        <link href="https://tonyzhw.github.io/ru-he-yong-python-zuo-yi-ge-jian-dan-de-wang-zhan/">
         </link>
         <updated>2021-02-24T13:45:48.000Z</updated>
         <content type="html"><![CDATA[<p>打开cmd<br>
@@ -24,8 +24,8 @@ OK了</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[能看到吗？]]></title>
-        <id>https://tonyzhw.github.io/post/neng-kan-dao-ma/</id>
-        <link href="https://tonyzhw.github.io/post/neng-kan-dao-ma/">
+        <id>https://tonyzhw.github.io/neng-kan-dao-ma/</id>
+        <link href="https://tonyzhw.github.io/neng-kan-dao-ma/">
         </link>
         <updated>2021-02-24T13:24:35.000Z</updated>
         <content type="html"><![CDATA[<p>看到了扣1<br>

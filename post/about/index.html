@@ -8,9 +8,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://tonyzhw.github.io/favicon.ico?v=1628318479980">
+<link rel="shortcut icon" href="https://tonyzhw.github.io/favicon.ico?v=1628319266623">
 <link rel="stylesheet" href="https://tonyzhw.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -35,7 +41,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://tonyzhw.github.io">
-        <img src="https://tonyzhw.github.io/images/avatar.png?v=1628318479980" class="site-logo">
+        <img src="https://tonyzhw.github.io/images/avatar.png?v=1628319266623" class="site-logo">
         <h1 class="site-title">Tony&#39;s Blog</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -114,6 +120,12 @@
             
 
             
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
 
           </div>
 
@@ -136,6 +148,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'b81c64afd88e4f2e72dc',
+        clientSecret: 'bd3a60d738bb6bbb66487396314917d7b813f283',
+        repo: 'tonyzhw.github.io',
+        owner: 'tonyzhw',
+        admin: ['tonyzhw'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
